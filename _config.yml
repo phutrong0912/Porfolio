@@ -1,0 +1,23 @@
+# GitHub Pages Configuration
+# HTTPS and Security Settings
+
+# Enforce HTTPS
+enforce_https: true
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Allow custom domain
+url: "https://phutrong.me"
+
+# Security headers
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Disable Jekyll processing for static assets
+include: [".htaccess"]
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title:output_ext
